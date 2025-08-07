@@ -1,5 +1,9 @@
 .purple {
-    color: rgb(170, 107, 228);
+    color: var(--yellow);
+}
+
+.btn{
+    cursor: pointer;
 }
 
 .gray {
