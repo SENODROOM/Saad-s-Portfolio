@@ -3,7 +3,7 @@
 }
 
 .gray {
-    color: gray;
+    color: var(--gray-yellow);
 }
 
 .center{

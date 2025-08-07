@@ -3,8 +3,15 @@
     padding: 0;
 }
 
+:root {
+  --light-color: rgb(131 106 34);
+  --main-color: rgb(99 78 21);
+  --yellow: rgb(255 204 56);
+  --gray-yellow: rgb(203 161 39);
+}
+
 body {
-    background-color: rgb(0, 0, 33);
+    background-color: var(--main-color);
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -33,7 +40,7 @@ body {
 }
 
 #element {
-    color: rgb(170, 107, 228);
+    color: var(--yellow);
 }
 
 .buttons{
@@ -51,7 +58,7 @@ body {
 
 main hr {
     border: 0;
-    background: #9c97f1;
+    background: var(--light-color);
     height: 1.2px;
     margin: 40px 84px;
 }
@@ -91,7 +98,7 @@ main hr {
 
 .vertical-title {
     position: relative;
-    color: #b9a2ff;
+    color: var(--yellow);
     top: 64px;
     width: 170px;
 }
@@ -104,16 +111,13 @@ main hr {
 }
 
 footer {
-    /* display: flex; */
     background-color: rgb(18, 18, 62);
-    /* height: 245px; */
 }
 
 .footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     padding: 40px 0;
 }
 
