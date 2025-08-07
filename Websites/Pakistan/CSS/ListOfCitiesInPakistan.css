@@ -1,0 +1,18 @@
+#ListOfCitiesInPakistan{
+    position: relative;
+    right: -36px;
+}
+#HeadingOfList{
+    position: relative;
+    right: 36px;
+}
+#ParagraphOfList{
+    position: relative;
+    right: 36px;
+}
+#ListOfCitiesInPakistan ol li span{
+    color: chartreuse;
+}
+#ListOfCitiesInPakistan ol li ul{
+    margin-left: 2rem;
+}

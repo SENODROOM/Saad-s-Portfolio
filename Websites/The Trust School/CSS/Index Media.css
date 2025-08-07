@@ -1,0 +1,59 @@
+@media screen and (max-width: 1280px){
+            .OurWebsite{
+                display: none;
+            }
+            .prefooter{
+                justify-content: center;
+            }
+        }
+        @media screen and (max-width: 852px){
+            .HeadOffice{
+                display: none;
+            }
+        }
+        @media screen and (max-width:1220px){
+            .FirstOption{
+                height: 520px;
+            }
+            .AboutUs{
+                padding: 14px;
+            }
+            .SecondOption{
+                height: 520px;
+            }
+            .Curriculum{
+                padding: 14px;
+            }
+            .ThirdOption{
+                height: 520px;
+            }
+            .OurFacilities{
+                padding: 14px;
+            }
+        }
+        @media screen and (max-width:1208px){
+            .Options{
+                flex-wrap: wrap;
+            }
+        }
+        @media screen and (max-width:1200px){
+            .IntroImg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+        }
+        @media screen and (max-width:1182px){
+            .CEOImg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+        }
+        @media screen  and (max-width: 1100px){
+            .Academics ul{
+                width: auto;
+            }
+        }

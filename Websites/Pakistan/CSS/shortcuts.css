@@ -1,0 +1,47 @@
+.backgroundcolor-black{
+    background-color: black;
+}
+.color-green{
+    color: green;
+}
+.color-black{
+    color: black;
+}
+.align-center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.backgroundcolor-white{
+    background-color: white;
+}
+/* Always check the MDN docs to dessect a given CSS property. Remmber, practise will make you perfect */
+.display-inline{
+    display: inline;
+}
+.display-inline-block{
+    display: inline-block;
+}
+.Font-TimesNewRoman{
+    font-family: 'Times New Roman', Times, serif;
+}
+.position-relative{
+    position: relative;
+}
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bt-0{
+    border-top: 0px;
+}
+.br-0{
+    border-right: 0px;
+}
+.bl-0{
+    border-left: 0px;
+}
+.bb-0{
+    border-bottom: 0px;
+}

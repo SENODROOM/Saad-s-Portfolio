@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+main{
+    position: relative;
+    top: 85px;
+}
+footer{
+    position: relative;
+    top: 90px;
+}
+#Paragraph1{
+    margin-bottom: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 32px;
+    align-content: center;
+}
+#Content1{
+    background-color: rgb(56, 49, 38);
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+/* we have RGB,Hex and HSL values to add colour */
+caption{
+    color: green;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    color: green;
+}
+/* You can use HEX colour picker in Google to apply RGB, HSL and HEX colours  */
+th{
+    background-color: green;
+    padding: 1vw;
+}
+td{
+    padding: 1vw;
+}
+table{
+    align-tracks: center;
+    border: 4;
+}
+/* We also have RGBA and HSLA values for colour but they are rarely used by beginners. A stands for Alpha. */
+#NationalAnthemofPakistan{
+    background-image: url(Images/download.jpg);
+    background-repeat: no-repeat;
+    border: 20px solid rgb(44, 21, 21);
+    width: 200px;
+    height: 800px;
+    background-size: 439px 800px;
+    background-attachment: scroll;
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-size: 21px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    /* transition-property: width height;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s; */
+    transition: width 2s ease-out 0s, height 2s ease-out 0s, background-size 2s ease-out 0s;
+}
+#NationalAnthemofPakistan:hover{
+    width: 440px;
+    height: 498px;
+    background-size: 439px 500px;
+}
+.LineOfAnthem{
+    margin-left: 42px;
+}
+#Pakistan{
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+footer div p{
+    text-transform: uppercase;
+}
+/* #UrbanRural{
+} */
+#Urban1 {
+    background-color: green;
+    margin-left: 1px;
+    padding: 1vw;
+}
+#Rural1 {
+    background-color: green;
+    padding: 1vw;
+}

@@ -1,0 +1,97 @@
+footer{  
+    background-color: #18407c;
+    color: white;
+    /* height: 489px; */
+    font-size: 4;
+}
+
+.prefooter{
+    display: flex;
+    font-size: 15px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.HeadOffice{
+    height: 282px;
+    width: 294px;
+    margin-left: 25px;
+    margin-top: 20px;
+    /* margin-right: 23px; */
+}
+
+.HeadList ul li:hover{
+    color: rgb(91, 133, 0);
+    transition: 0.5s;
+}
+
+.ImportantList{
+    margin-right: 13px;
+}
+
+.OurWebsite{
+    height: 282px;
+    width: 294px;
+    margin-left: 25px;
+    margin-top: 20px
+}
+
+.Have{
+    height: 282px;
+    width: 294px;
+    margin-left: 25px;
+    margin-top: 20px
+}
+
+
+.SocialLinks{
+    height: 282px;
+    width: 294px;
+    margin-left: 25px;
+    margin-top: 20px
+}
+
+.SocialList ul{
+    display: flex;
+    margin-top: 13px;
+}
+
+.LetList ul li:hover{
+    color: rgb(91, 133, 0);
+    transition: 0.5s;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer{
+    font-size: 15px;
+    margin: 0px;
+    text-align: center;
+    height: 62px;
+    background-color: #051d41;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.CopyList ul{
+    display: flex;
+}
+
+.CopyList ul a li{
+    margin: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.CopyList ul a li:hover{
+    color: yellowgreen;
+    transition: 0.5s;
+}

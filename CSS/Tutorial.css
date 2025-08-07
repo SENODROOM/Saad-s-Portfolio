@@ -1,0 +1,45 @@
+.Tutorialsh1{
+    color: rgb(192 132 252);
+    margin: 50px;
+}
+
+.Tutorialpage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 0px 25px 0px;
+}
+
+.Tutorialsdemo{
+    margin: 15px 25px;
+    background: rgb(18, 18, 62);
+    border: 5px solid rgb(6, 6, 47);
+    width: 500px;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 25px;
+}
+
+.Tutorialsdemo img{
+    width: 135px;
+}
+
+.Tutorialsdemo h3{
+    font-size: 1.5rem;
+    margin: 19px 0px;
+}
+
+.tutorialbtn{
+    background: rgb(44 23 66);
+    font-size: 1rem;
+    color: white;
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 13px;
+}
+.tutorialbtn:hover{
+    background: white;
+    color:rgb(44 23 66);
+    border: 1px solid rgb(44 23 66);
+    transition: 1.5s;
+}

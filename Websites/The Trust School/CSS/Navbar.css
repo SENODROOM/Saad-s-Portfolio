@@ -1,0 +1,161 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 115px;
+    align-items: center;
+}
+
+.VideoLOGO {
+    visibility: hidden;
+}
+
+.VideoLOGO img{
+    cursor: pointer;
+    height: 115px;
+    width: 115px;
+    border-radius: 250px;
+    margin: 25px;
+    margin-top: 40px;
+}
+
+/* .LOGO {
+    visibility: hidden;
+} */
+
+.LOGO img{
+    cursor: pointer;
+    height: 115px;
+    width: 115px;
+    border-radius: 250px;
+    margin: 25px;
+    margin-top: 40px;
+}
+
+.NavList{
+    /* color: #fff7f7; */
+    z-index: 50;
+}
+
+.NavList ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    z-index: 50;
+}
+
+.NavList ul li{
+    display: flex;
+    height: 117px;
+    justify-content: center;
+    align-items: center;
+    /* color: #a0a0a0; */
+}
+
+.NavList ul li div{
+    border: solid 1px #a0a0a0;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    /* color: #3b3535; */
+}
+
+.NavList ul li a {
+    text-decoration: none;
+    /* color: #a0a0a0; */
+}
+
+.NavList ul li:hover{
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+    background-color: #18407c;
+    transition: 00.5s;
+}
+
+.NavList ul li::after{
+    content: "";
+    position: absolute;
+    background-color: #18407c;
+    height: 3px;
+    width: 0%;
+    left: 9px;
+    bottom: -16px;
+    transition: 0.5s;
+}
+
+.LOGO img{
+    height: 120px;
+    width: 225px;
+    margin: 15px;
+}
+
+#VideoNavList{
+    z-index: 50;
+}
+
+#VideoNavList ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    z-index: 50;
+}
+
+#VideoNavList ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    z-index: 50;
+}
+
+#VideoNavList ul li{
+    border: solid 1px #a0a0a0;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: white;
+}
+
+#VideoNavList ul li a{
+    text-decoration: none;
+    color: #d3cece;
+}
+
+#VideoNavList ul li:hover{
+    font-weight: bold;
+    color: #d3cece;
+    transition: 0.5s;
+}
+
+#VideoNavList ul li{
+    padding: 0 10px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+#VideoNavList ul li:after{
+    content: "";
+    position: absolute;
+    background-color: #18407c;
+    height: 3px;
+    width: 0%;
+    left: 9px;
+    bottom: -16px;
+    transition: 0.5s;
+}
+
+#VideoNavList ul li:hover:after{
+    width: 80%;
+}
+
+.UnderLined{
+    color: black;
+    border: 3px solid #18407c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

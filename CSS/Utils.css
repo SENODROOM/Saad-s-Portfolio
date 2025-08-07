@@ -1,0 +1,13 @@
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.gray {
+    color: gray;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

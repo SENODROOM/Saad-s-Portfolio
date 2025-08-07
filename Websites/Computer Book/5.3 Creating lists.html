@@ -1,0 +1,187 @@
+<!Doctype HTML>
+<html>
+<head>
+<title>5.3 Creating Lists </title>
+</head>
+<body>
+<font face= "calibri" size="4">
+<h1>
+<font color="red">5.3 Creating Lists</font>
+</h1>
+<p>Somethimes we need to proide information in the form of lists e.g. list of subjects, list of teachers and list of students.
+In the following, we will what type of lists are available in HTML and how to create them</p>
+<h2>
+<font color ="blue">5.3.1 Types of lists</font>
+</h2>
+<p>there are following three types of lists in HTML</p>
+<ul>
+<li>
+<h3>Unordered List</h3>
+<p>In an unordered list the order of the list item is not important. In other words, shuffling of items in an unordered list has no effect. For example,
+list of cities in pakistan. An unordered list is created inside the &lt;ul&gt;&lt;/ul&gt; tags. Each list item is added with &lt;li&gt; tag, as shown below.</p>
+<table border="1" align="center" style="border-collapse: collapse;" cellpadding="10">
+<tr bgcolor="blue">
+<th style="padding-left:75px;padding-right:75px">
+<font align="center" color="white">HTML Code Snippet</font>
+</th>
+<th style="padding-left:90px;padding-right:90px">
+<font align="center" color="white">Output</font>
+</th>
+</tr>
+<tr>
+<td> &nbsp;&lt;ul&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Item&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Item&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Item&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Item&lt;/li&gt;
+<br>
+ &nbsp; &lt;/ul&gt;
+</td>
+<td>
+<ul>
+<li>Item &nbsp; &nbsp; &nbsp; &nbsp;</li>
+<li>Item</li>
+<li>Item</li>
+<li>Item</li>
+</ul>
+</td>
+</table>
+</li>
+<li>
+<h3>Ordered list</h3>
+<p>An ordered list keeps the item with an order number. If you change, the order, the meaning of the whole list may also change. For example, 
+if your teacher makes the list of students with respect to thier marks then definitely order will matter <br><br> An ordered list starts with 
+&lt;ol&gt; and ends with &lt;/ol&gt; tag. Each list item starts with &lt;li&gt; tag, as shown below.</p>
+<table border="1" align="center" style="border-collapse: collapse;" cellpadding="10">
+<tr bgcolor="blue">
+<th style="padding-left:75px;padding-right:75px">
+<font align="center" color="white">HTML Code Snippet</font>
+</th>
+<th style="padding-left:90px;padding-right:90px">
+<font align="center" color="white">Output</font>
+</th>
+</tr>
+<tr>
+<td> &nbsp;&lt;ol&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;First Item&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Second Item&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Third Item&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Fourth Item&lt;/li&gt;
+<br>
+ &nbsp; &lt;/ol&gt;
+</td>
+<td>
+<ol>
+<li>Item &nbsp; &nbsp; &nbsp; &nbsp;</li>
+<li>Item</li>
+<li>Item</li>
+<li>Item</li>
+</ol>
+</td>
+</table>
+</li>
+<li>
+<h3>Definition list</h3>
+<p>There is another type of list, called "Definition" or "Description list". It is used when you need to show terms and their description. For Example,
+If you want to write the names of subjects you are studying in 9th class along with their introductions then this type of list is helpful. The &ltdl&gt describes
+the description lisdt, the &ltdt&gt tag specifies the term, and the &ltdd&gt tag describes that term as shown in the following.</p>
+<table border="1" align="center" style="border-collapse: collapse;" cellpadding="10">
+<tr bgcolor="blue">
+<th style="padding-left:75px;padding-right:75px">
+<font align="center" color="white">HTML Code Snippet</font>
+</th>
+<th style="padding-left:90px;padding-right:90px">
+<font align="center" color="white">Output</font>
+</th>
+</tr>
+<tr>
+<td> &nbsp;&lt;dl&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;dt&gt;Coffee&lt;/dt&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;dd&gt;-black hot drink&lt;dd&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;dt&gt;Milk&lt;/dt&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;dd&gt;-white cold drink&lt;dd&gt;
+<br>
+ &nbsp; &lt;/dl&gt;
+</td>
+<td>
+<dl>
+<dt>Coffee</dt>
+<dd>-black hot drink<dd>
+<dt>Milk</dt>
+<dd>-white cold drink<dd>
+</dl>
+</td>
+</table>
+</li>
+<li>
+<h3>Nested List</h3>
+<p>In a list, a list item can contain another list. Such a list is called a nested list. It is useful for a list where you hse multiple 
+options for a single item in a list e.g. for writing table of contents that contain sub sections. For example, see the following code of snippet 
+and its output.</p>
+<table border="1" align="center" style="border-collapse: collapse;" cellpadding="10">
+<tr bgcolor="blue">
+<th style="padding-left:75px;padding-right:75px">
+<font align="center" color="white">HTML Code Snippet</font>
+</th>
+<th style="padding-left:90px;padding-right:90px">
+<font align="center" color="white">Output</font>
+</th>
+</tr>
+<tr>
+<td> &nbsp;&lt;ul&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Coffee&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Tea
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Black coffee&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;Green tea&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;/li&gt;
+<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt;Milk&lt;/li&gt;
+<br>
+ &nbsp; &lt;/ul&gt;
+</td>
+<td>
+<ul>
+<li>Coffee</li>
+<li>Tea
+<ul>
+<li>Black coffee</li>
+<li>Green tea</li>
+</ul>
+</li>
+<li>Milk</li>
+</ul>
+</td>
+</table>
+<br>
+<div align="center" style="border:1px solid black; border-top-left-radius: 15px;border-top-right-radius: 15px;background-color:red;width:60%;margin:auto">
+<font style="border-bottom:1px solid black;" align = "center">Activity 5.3</font>
+</div>
+<div style="border:1px solid black;width:60%;border-bottom-right-radius: 15px;border-bottom-left-radius: 15px; margin:auto">
+<p>In the file "pakistan.html", create a list of proinces of Pakistan, and in each proince make a list of at least 5 cities</p>
+</div>
+</li>
+</ul>
+</font>
+</body>
+</html>

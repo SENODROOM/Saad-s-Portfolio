@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Navbar.css">
+    <link rel="stylesheet" href="CSS/Utils.css">
+    <title>Saad's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <script src="JavaScript/Navbar.js"></script>
+    </header>
+    <main>
+        <div class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Saad</span>
+                <div>I am a Passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        Download Resume
+                    </button>
+                    <button class="btn">
+                        GitHub
+                    </button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Images/pngegg.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="secondSection">
+            <span class="gray">What I had done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-image">
+                        <img src="Images/pngwing.com (1).png" alt="">
+                    </div>
+                    <div class="vertical-title">
+                        HTML DEVELOPER
+                        <br>
+                        (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui rem ratione consequuntur
+                        provident optio cupiditate et quia doloribus aliquam quos magnam, velit libero ea eveniet
+                        facilis voluptates perferendis eius sunt molestiae laudantium quis. Porro excepturi delectus
+                        eaque doloremque laudantium doloribus esse nobis?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-image">
+                        <img src="Images/pngwing.com (1).png" alt="">
+                    </div>
+                    <div class="vertical-title">
+                        CSS Developer
+                        <br>
+                        (2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui rem ratione consequuntur
+                        provident optio cupiditate et quia doloribus aliquam quos magnam, velit libero ea eveniet
+                        facilis voluptates perferendis eius sunt molestiae laudantium quis. Porro excepturi delectus
+                        eaque doloremque laudantium doloribus esse nobis?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-image">
+                        <img src="Images/pngwing.com (1).png" alt="">
+                    </div>
+                    <div class="vertical-title">
+                        JavaScript Developer
+                        <br>
+                        (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui rem ratione consequuntur
+                        provident optio cupiditate et quia doloribus aliquam quos magnam, velit libero ea eveniet
+                        facilis voluptates perferendis eius sunt molestiae laudantium quis. Porro excepturi delectus
+                        eaque doloremque laudantium doloribus esse nobis?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-image">
+                        <img src="Images/pngwing.com (1).png" alt="">
+                    </div>
+                    <div class="vertical-title">
+                        Front-End Developer
+                        <br>
+                        (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui rem ratione consequuntur
+                        provident optio cupiditate et quia doloribus aliquam quos magnam, velit libero ea eveniet
+                        facilis voluptates perferendis eius sunt molestiae laudantium quis. Porro excepturi delectus
+                        eaque doloremque laudantium doloribus esse nobis?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src="JavaScript/Footer.js"></script>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

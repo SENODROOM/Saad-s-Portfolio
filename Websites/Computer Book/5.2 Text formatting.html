@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>5.2 Text Formatting</title>
+</head>
+<body>
+<font face ="calibri" size="4">
+<h1>
+<font color="red">5.2 Text Formatting</font>
+</h1>
+<h2>
+<font color="blue">5.2.1 Content formatting in the HTML</font>
+</h2>
+<p>HTML defines special element for defining text with the special meaning. Here is the description about various text performing taxks in HTML.</p>
+<ul>
+<li>
+<b>
+<font size="5">Creating a paragraph:</font>
+</b>
+&nbsp;The &lt;p&gt; tag marks starting of a paragraph and &lt;/p&gt; tag marks closing oSf of a paragraph. The text inside &lt;p&gt; &lt;/p&gt; tags is 
+the actual content of the paragraph.
+</li>
+<li>
+<b>
+<font size="5">Insert line breaks:</font></b>
+The &lt;br&gt; tag inserts a line break without starting a new paragraph. For example, &lt;p&gt;This is&lt;br&gt;a paragraph&lt;/p&gt; 
+displays the text in two lines, as following.
+<p> &nbsp; &nbsp; &ensp; This is<br> &nbsp; &nbsp; &ensp; a paragraph</dt>
+</li>
+<li>
+<b>
+<font size="5">Insert spaces:</font>
+</b>
+&nbsp; If you insert more than one spaces in a text, HTML only considers one space and ignores the others. For example, 
+&lt;p&gt; I study &nbsp; &nbsp; &ensp; in 9th class.&lt;/p&gt;
+<p> &nbsp; &nbsp; &ensp; I study in 9th class.</p>
+<p>You can see that HTML has ignored the multiple spaces inside the text. In order to insert spaces you need to write "&amp;nbsp" where the space is 
+needed. For example, &lt;p&gt; I study &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; in 9th 
+class. &lt;/p&gt; generates the following output.</p>
+<p> &nbsp; &nbsp; &ensp; I study &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; in 9th class.</p>
+<p>In order to add two spaces, you can use "&amp;ensp"</p>
+</li>
+<li><img src="images/image.bmp" align="right" border="0px" width="150px" height="200px">
+<b>
+<font size="5">Add heading/sub-headings:</font>
+</b>
+Headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags. &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.
+For example, &lt;h1&gt;Heading 1&lt;/h1&gt; &lt;h2&gt;Heading 2&lt;/h2&gt; &lt;h3&gt;Heading 3&lt;/h3&gt; &lt;h4&gt;Heading 4&lt;/h4&gt; 
+&lt;h5&gt;Heading 5&lt;/h5&gt; &lt;h6&gt;Heading 6&lt;/h6&gt; produces the output shown in figure 5-6
+</li>
+</ul>
+<br>
+<br>
+<div align="center" style="border:1px solid black; border-top-left-radius: 15px;border-top-right-radius: 15px;background-color:red;width:60%;margin:auto">
+<font style="border-bottom:1px solid black;" align = "center">Activity 5.2</font>
+</div>
+<div style="border:1px solid black;width:60%;border-bottom-right-radius: 15px;border-bottom-left-radius: 15px; margin:auto">
+<p>In the file "Pakistan.html", create a first eel heading "Pakistan". Inside this heading, write a paragraph about pakistan</p>
+</div>
+<h2>
+<font color="blue">5.2.2 Identify the text formatting Tags</font>
+</h2>
+<p>The &lt;font&gt; tagf font styles, font size and colour of text. You can use colour attribute of the &lt;font&gt; tag to specify the colour of the text.
+For specifying the size of text, size attribute is used. Similarly, face attribute is used to set the font style of text. For example, 
+<&lt;ont color="red" size="5"; five="verdana"&gtSome Text&lt;/font&gt;</p>
+<p>Below are some examples for usage of &lt;font&gt; tag, along with their output.</p>
+<table border="1" align="center" style="border-collapse: collapse;" cellpadding="10">
+<tr bgcolor="blue">
+<th style="padding-left:75px;padding-right:75px">
+<font align="center" color="white">HTML Code Snippet</font>
+</th>
+<th style="padding-left:90px;padding-right:90px">
+<font align="center" color="white">Output</font>
+</th>
+</tr>
+<tr>
+<td>&lt;font color="red"&gt;This is some text!&lt;/font&gt;
+<br>
+&lt;font size="5" color="blue"&gt;This is some text!&lt;/font&gt;
+<br>
+&lt;font face="verdana"&gt;This is some text!&lt;/font&gt;
+</td>
+<td>
+<ul>
+<font color="red">This is some text!</font>
+<br>
+<font size="5" color="blue">This is some text!</font>
+<br>
+<font face="verdana">This is some text!</font>
+</td>
+</table>
+<br>
+<div align="center" style="border:1px solid black; border-top-left-radius: 15px;border-top-right-radius: 15px;background-color:red;width:60%;margin:auto">
+<font style="border-bottom:1px solid black;" align = "center">Important Note</font>
+</div>
+<div style="border:1px solid black;width:60%;border-bottom-right-radius: 15px;border-bottom-left-radius: 15px; margin:auto">
+<p>In HTML, You write US English so you use "color" instead of "colour" which is from British English</p>
+</div>
+<br>
+<div align="center" style="border:1px solid black; border-top-left-radius: 15px;border-top-right-radius: 15px;background-color:red;width:60%;margin:auto">
+<font style="border-bottom:1px solid black;" align = "center">Important Note</font>
+</div>
+<div style="border:1px solid black;width:60%;border-bottom-right-radius: 15px;border-bottom-left-radius: 15px; margin:auto">
+<p>The &lt;font&gt; tag is depricated in HTML5, THe latest ersion of HTML uses tags like &lt;b&gt; &lt;i&gt; &lt;u&gt; to make 
+the text <b>bold</b>,<i>italic</i> or <u>underlined</u> respectively. Below are some examples for usage of these tags, aloong 
+with their outputs</p>
+</div>
+<br>
+<table border="1" align="center" style="border-collapse: collapse;" cellpadding="10">
+<tr bgcolor="blue">
+<th style="padding-left:75px;padding-right:75px">
+<font align="center" color="white">HTML Code Snippet</font>
+</th>
+<th style="padding-left:90px;padding-right:90px">
+<font align="center" color="white">Output</font>
+</th>
+</tr>
+<tr>
+<td>&lt;b&gt;This is bold text!&lt;/b&gt;
+<br>
+&lt;i"&gt;This is italic text!&lt;/i&gt;
+<br>
+This is an &lt;u&gt;underlined text!&lt;/u&gt;
+</td>
+<td>
+<b>This is bold text!</b>
+<br>
+<i">This is italic text!</i>
+<br>
+This is an <u>underlined text!</u>
+</td>
+</table>
+<br>
+</body>
+</html>

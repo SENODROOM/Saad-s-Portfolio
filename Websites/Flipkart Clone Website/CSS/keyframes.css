@@ -1,0 +1,16 @@
+@keyframes whitetocolour {
+    0%{
+        border: solid 0.5px white;
+        background-color: white;
+    }
+
+    0.5%{
+        border: solid 0.5px rgb(102, 102, 102);
+        background-color: rgb(240, 236, 236);
+    }
+    
+    100%{
+        border: solid 0.5px rgb(90, 84, 84);
+        background-color: rgb(240, 236, 236);
+    }
+}
